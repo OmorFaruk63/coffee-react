@@ -1,0 +1,95 @@
+.body {
+  overflow: hidden;
+  background-image: url("../public/bg-cafe.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: #111315;
+}
+.container {
+  width: 75%;
+  padding: 70px;
+  background-color: #1b1d1f;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+.header {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+.header h1 {
+  color: #fef7ee;
+  text-align: center;
+}
+.header p {
+  color: #6f757c;
+  text-align: center;
+  margin: 30px 0px;
+}
+nav {
+  margin: 30px auto;
+  text-align: center;
+}
+nav a {
+  color: #fef7ee;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 3px;
+}
+nav .active {
+  background-color: #6f757c;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+.popular {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #111315;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: #f6c768;
+}
+.card img {
+  border-radius: 10px;
+}
+.card .price-info {
+  color: #fef7ee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Star {
+  color: #f6c768;
+}
+.card .price {
+  color: #111315;
+  background-color: #bee3cc;
+  padding: 3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card p {
+  margin: 5px 0px;
+  color: #fef7ee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .sold-out {
+  color: #ed735d;
+}
